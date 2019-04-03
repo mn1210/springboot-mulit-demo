@@ -21,6 +21,11 @@
 			<artifactId>springboot-multi-demo-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.xz</groupId>
+			<artifactId>springboot-multi-demo-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		
 	</dependencies>
 </project>

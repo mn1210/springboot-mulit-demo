@@ -18,8 +18,20 @@
 		<!-- web子工程添加对service子工程的直接依赖,对dao和model子工程间接依赖 -->
 		<dependency>
 			<groupId>com.xz</groupId>
-			<artifactId>springboot-multi-demo-dao</artifactId>
+			<artifactId>springboot-multi-demo-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.xz</groupId>
+			<artifactId>springboot-multi-demo-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<!-- 整合Swagger UI -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>swagger-ui</artifactId>
+			<version>3.20.8</version>
 		</dependency>
 	</dependencies>
 </project>
